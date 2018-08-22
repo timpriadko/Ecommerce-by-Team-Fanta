@@ -1,0 +1,64 @@
+.card{
+    border-radius: 0;
+    .card-body{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: $card-spacer-x-sm;
+    }
+    .card-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+        padding: $spacer $card-spacer-x;
+
+        .card-author{
+            display: flex;
+            align-items: center;
+        }
+
+        .card-author-img{
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: $gray-800;
+            margin-right: 10px;
+        }
+    }
+
+    .card-author-name{
+        color: $cyan;
+
+        &:hover{
+            color: $primary;
+        }
+    }
+
+    .card-rating-icon{
+        color: $orange;
+        transition: 0.2s;
+        cursor: pointer;
+        &.marked,
+        &:hover{
+            &:before{
+                content: '\f005';
+            }
+        }
+    }
+
+    .card-rating{
+        font-size: $font-size-sm;
+    }
+
+    .card-rating-number{
+        color: $cyan;
+    }
+    .card-rating-value{
+        color: $dark;
+    }
+
+
+
+}

@@ -1,0 +1,64 @@
+// colors
+
+$primary: #8bc34a;
+$secondary: #e74c3c;
+$gray-900: #707070;
+$gray-800: #b5b5b5;
+$green: #8bc34a;
+$red: #e74c3c;
+$dark: #263238;
+$cyan: #546e7a;
+$orange: #ffa726;
+
+// fonts
+
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+$h1-font-size: 36px;
+$h2-font-size: 30px;
+$h3-font-size: 24px;
+$h4-font-size: 20px;
+$h5-font-size: 18px;
+
+$headings-color: $dark;
+
+$small-font-size: 87.5%;
+
+$font-size-sm: 0.75rem;
+
+$heading-4-font-weight: bold;
+
+// buttons
+
+$btn-padding-y-lg: 15px;
+$btn-padding-x-lg: 30px;
+$font-size-lg: 0.9375rem;
+
+// Spacing
+
+$spacer: 1rem !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+                (
+                        0: 0,
+                        1: ($spacer * .25),
+                        2: ($spacer * .5),
+                        3: $spacer,
+                        4: ($spacer * 1.5),
+                        5: ($spacer * 3),
+                        120: 120px
+                ),
+                $spacers
+);
+
+// cards
+
+$card-spacer-y: 0.35rem;
+$card-spacer-x: 1.8rem;
+$card-spacer-x-sm: 0.6rem;
+
+
+// links
+$link-hover-color: $cyan;
+$link-hover-decoration: none;

@@ -12,6 +12,8 @@ $orange: #ffa726;
 $dark-blue: #263238;
 
 
+$bg-light: #f4f6f5;
+
 // fonts
 
 $font-family-sans-serif: 'Roboto', sans-serif;
@@ -51,7 +53,11 @@ $spacers: map-merge(
                         3: $spacer,
                         4: ($spacer * 1.5),
                         5: ($spacer * 3),
+<<<<<<< HEAD
                         6: ($spacer * 4),
+=======
+                        60: 60px,
+>>>>>>> 25d51a47a865bdb8f0ff82144d01d1b71f1221d5
                         120: 120px
                 ),
                 $spacers

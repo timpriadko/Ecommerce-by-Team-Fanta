@@ -359,7 +359,7 @@ hr {
 
 small,
 .small {
-  font-size: 87.5%;
+  font-size: 0.875rem;
   font-weight: 400; }
 
 mark,
@@ -1712,7 +1712,7 @@ textarea.form-control {
   display: none;
   width: 100%;
   margin-top: 0.25rem;
-  font-size: 87.5%;
+  font-size: 0.875rem;
   color: #8bc34a; }
 
 .valid-tooltip {
@@ -1797,7 +1797,7 @@ textarea.form-control {
   display: none;
   width: 100%;
   margin-top: 0.25rem;
-  font-size: 87.5%;
+  font-size: 0.875rem;
   color: #e74c3c; }
 
 .invalid-tooltip {
@@ -2417,7 +2417,7 @@ fieldset:disabled a.btn {
   border-radius: 0.3rem; }
 
 .btn-sm, .btn-group-sm > .btn {
-  padding: 0.25rem 0.5rem;
+  padding: 10px 0.5rem;
   font-size: 0.75rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
@@ -6223,6 +6223,7 @@ button.bg-dark:focus {
 .mx-5 {
   margin-left: 3rem !important; }
 
+<<<<<<< HEAD
 .m-20 {
   margin: 20px !important; }
 
@@ -6261,6 +6262,9 @@ button.bg-dark:focus {
 .mx-30 {
   margin-left: 30px !important; }
 
+=======
+<<<<<<< HEAD
+.m-6 {
   margin: 4rem !important; }
 
 .mt-6,

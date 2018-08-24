@@ -1,0 +1,42 @@
+.bg-light-green {
+        background-color: #f4f6f5;
+}
+
+.grid-item {
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.grid-item {
+		width: 50%;
+	}
+}
+
+@media (min-width: 992px) {
+	.grid-item {
+		width: 25%;
+	}
+}
+
+h2 {
+	font-size: $h1-font-size;
+}
+
+.filter-button-group button {
+	font-size: $small-font-size;
+	background-color: $white;
+	padding: $btn-padding-y-sm $btn-padding-x-md;
+}
+
+.filter-button-group button:hover {
+		background-color: $red;
+		color: $white;
+}
+
+.btn-white {
+	background-color: $white;
+}
+
+.fs-16 {
+	font-size: $font-size-base;
+}

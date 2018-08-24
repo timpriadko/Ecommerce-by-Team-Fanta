@@ -9,6 +9,8 @@ $red: #e74c3c;
 $dark: #263238;
 $cyan: #546e7a;
 $orange: #ffa726;
+$dark-blue: #263238;
+
 
 // fonts
 
@@ -22,9 +24,9 @@ $h5-font-size: 18px;
 
 $headings-color: $dark;
 
-$small-font-size: 87.5%;
+$small-font-size: 0.875rem; //14px
 
-$font-size-sm: 0.75rem;
+$font-size-sm: 0.75rem; //12px
 
 $heading-4-font-weight: bold;
 
@@ -32,7 +34,9 @@ $heading-4-font-weight: bold;
 
 $btn-padding-y-lg: 15px;
 $btn-padding-x-lg: 30px;
-$font-size-lg: 0.9375rem;
+$btn-padding-y-sm: 10px;
+$btn-padding-x-md: 25px;
+$font-size-lg: 0.9375rem; //15px
 
 // Spacing
 
@@ -47,6 +51,7 @@ $spacers: map-merge(
                         3: $spacer,
                         4: ($spacer * 1.5),
                         5: ($spacer * 3),
+                        6: ($spacer * 4),
                         120: 120px
                 ),
                 $spacers

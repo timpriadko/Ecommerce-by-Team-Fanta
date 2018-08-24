@@ -1,4 +1,7 @@
 .btn-primary{
     @include button-variant($primary, $primary);
-    color: $white;
+}
+
+.btn.secondary {
+	@include button-variant($red, $secondary);
 }

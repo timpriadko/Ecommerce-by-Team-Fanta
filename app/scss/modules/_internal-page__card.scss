@@ -1,0 +1,21 @@
+.internal-page{	
+	img{
+		width: 100%;
+	}
+	@media (min-width: 992px){
+		.grid-item {
+			width: 100%;
+		}
+		.card{
+			flex-direction: row;
+			align-items: center;
+			height: 180px;
+		}
+		.card-img-top{
+			width: 240px;
+		}		
+		.card__child{
+			flex-grow: 1;
+		}
+	}
+}

@@ -1,21 +1,47 @@
-.internal-page{	
+.internal-page{
 	img{
 		width: 100%;
 	}
 	@media (min-width: 992px){
 		.grid-item {
 			width: 100%;
-		}
-		.card{
-			flex-direction: row;
-			align-items: center;
-			height: 180px;
-		}
-		.card-img-top{
-			width: 240px;
-		}		
-		.card__child{
-			flex-grow: 1;
+			.card{
+				flex-direction: row;
+				align-items: center;
+				height: 180px;
+			}
+			.card-img-top{
+				width: 240px;
+			}		
+			.card__child{
+				flex-grow: 1;
+			}
+			.card-body-inner>p{
+				color: $gray-700;
+			}
+			.sales{
+				color: #aeb4bb;
+				font-size: 13px;
+			}
+			.card-rating{
+				line-height: $font-size-base;
+			}
+			.card-feedback-icon{
+				padding-left: 17px;
+				.fa-comment-o,
+				.fa-heart-o{
+					font-size: $font-size-base;
+					color: $primary;
+					cursor: pointer;
+					transition: 0.2s;
+				}
+				.fa-comment-o:hover:before{
+					content: '\f075';
+				}
+				.fa-heart-o:hover:before{
+					content: '\f004';
+				}
+			}
 		}
 	}
 }

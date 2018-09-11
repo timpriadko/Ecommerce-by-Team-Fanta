@@ -1,0 +1,34 @@
+.min-height-420 {
+	min-height: 100px;
+	@media (min-width: 768px) {
+		min-height: 420px;
+	}
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.btn-group.btn-group.btn-group-offset-lg {
+	$offset: 1rem;
+
+	flex-wrap: wrap;
+	margin-left: -$offset;
+	margin-bottom: -$offset;
+	> * {
+		margin-left: $offset;
+		margin-bottom: $offset;
+	}
+}
+
+.btn-group.btn-group.btn-group-offset-xs {
+	$offset: 3px;
+
+	flex-wrap: wrap;
+	margin-left: -$offset;
+	margin-bottom: -$offset;
+	> * {
+		margin-left: $offset;
+		margin-bottom: $offset;
+	}
+}

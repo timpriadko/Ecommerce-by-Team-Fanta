@@ -1,0 +1,22 @@
+.breadcrumb {
+	margin-bottom: 0;
+	background-color: transparent;
+	padding: 2rem 0;
+	a {
+		color: $cyan;
+		&:hover {
+			color: $primary;
+		}
+	}
+	&-item {
+		& + .breadcrumb-item {
+		&:before {
+			content: '-';
+			color: $primary;
+			}
+		}
+		&.active {
+		color: $dark;
+		}
+	}
+}

@@ -1,0 +1,19 @@
+.pagination {
+	.page-item {
+		.page-link {
+			border-radius: 0;
+			color: $dark;
+			padding-left: 15px;
+    		padding-right: 15px;
+    		margin-right: 10px;
+		}
+		.curent-page {
+			border-radius: 0;
+			color: #fff;
+			background-color: $secondary;
+			padding-left: 15px;
+    		padding-right: 15px;
+    		margin-right: 10px;
+    	}	
+	}
+}

@@ -1,0 +1,169 @@
+.top-panel {
+	padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.account-information {
+	.sign-in-buttons {
+		padding-left: 20px;
+		a {
+			font-size: $font-size-sm;
+		}
+		a + a {
+			margin-left: 4px;
+		}
+	}
+	.info-inner {
+	 	div {
+		font-size: 15px;
+		padding-right: 10px;
+		}
+	}
+	.messages-block {
+		.btn {
+			position: relative;
+			border-radius: 50%;
+			font-size: 14px;
+			padding: 0;
+			width: 35px;
+			line-height: 34px;
+			text-align: center;
+			margin-left: 3px;
+			margin-right: 3px;
+		}
+		.badge {
+			position: absolute;
+		    border-radius: 50%;
+		    color: #fff;
+		}
+		.dropdown-menu {
+			border: 1px solid $gray-700;
+			padding: 0;
+			margin: 0;
+			border-radius: 0;
+			.dropdown-item + .dropdown-item {
+				border-top: 1px solid $gray-700;
+			}
+		}
+		.dropdown-item {
+			padding: 20px 15px;
+			display: flex;
+			justify-content: space-between;
+			.img-wrapper {
+				width: 54px;
+				height: 54px;
+				background-color: $gray-700;
+				border-radius: 50%;
+				overflow: hidden;
+			}
+			.message {
+				margin-left: 30px;
+				margin-right: 40px;
+			}
+			.message-title, .message-product-title {
+				color: $primary;
+				font-size: 12px;
+			}
+			.message-date {
+				font-size: 10px;
+			}
+			.message-sender-name {
+				font-size: 13px;
+				font-weight: $font-weight-bold;
+			}
+			.img-wrapper-cart {
+				width: 54px;
+				height: 54px;
+				background-color: $gray-700;
+				border-radius: 0;
+				overflow: hidden;
+			}
+			.message-product-name {
+				font-size: 15px;
+				font-weight: $headings-font-weight;
+			}
+			.message-product-cost {
+				font-size: 16px;
+				font-weight: $headings-font-weight;
+			}
+			.total {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				padding-bottom: 15px;
+				font-weight: $font-weight-bold;
+			}
+			.cart-buttons-wrapper {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				font-size: 14px;
+				font-weight: $font-weight-bold;
+				.btn-primary, .btn-secondary {
+				padding: 10px 10px;
+				}
+				.btn-primary + .btn-secondary {
+					margin-left: 10px;
+				}
+			}
+
+		}
+		.dropdown-item:hover {
+			.fa {
+				color: #f9c499;
+			}
+		}
+	}
+}
+
+/*----------------loged in header----------------*/
+
+.green-arrow:before {
+	font-family: fontawesome;
+	content: '\f105';
+	padding-right: 10px;
+	color: $primary;
+			}
+.user-logo {
+	width: 35px;
+	height: 35px;
+	background-color: $gray-700;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 10px;
+	margin-left: 15px;
+}
+
+.user-data {
+	.dropdown {
+		.user-name-toggle {
+			padding: 0;
+	    	margin: 0;
+	    	line-height: 0.7;
+			font-size: $small-font-size;
+			background-color: transparent;
+		}
+	}
+	.dropdown-menu {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		a {
+			font-size: 12px;
+			
+			&:hover {
+				color: $primary;
+			}
+		}
+		a + a {
+			padding-top: 15px;
+		}
+	}
+	.value {
+		font-size: $small-font-size;
+		font-weight: bold;
+	}
+}
+
+.out-btn a {
+	font-size: $font-size-sm;
+		}

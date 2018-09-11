@@ -2,20 +2,40 @@
 
 $primary: #8bc34a;
 $secondary: #e74c3c;
+$gray-300: #a6b5bb;
+$gray-400: #d4d4d4;
+$gray-500: #dde3e8;
+$gray-600: #f4f6f5;
+$gray-700: #e0e0e0;
 $gray-900: #707070;
 $gray-800: #b5b5b5;
+$light-gray: #f2f5f8;
 $green: #8bc34a;
 $red: #e74c3c;
 $dark: #263238;
 $cyan: #546e7a;
 $orange: #ffa726;
-$dark-blue: #263238;
+$dark-green: #78ad39;
+$dark-blue: #70838d;
+$dark-blue-2: #37474f;
+$dark-blue-3: #88979f;
+$light-blue: #42a5f5;
+$green-blue: #00bcd4;
 
 
-$bg-light: #f4f6f5;
 
 
+//socicons colors
+$facebook: #6370b6;
+$twitter: #64b5f6;
+$linkedin: #4f71ce;
+$pinterest: #d32f2f;
 
+//Body
+$body-bg: $gray-600;
+
+//Borders
+$border-color: $gray-500;
 
 // fonts
 
@@ -56,13 +76,15 @@ $spacers: map-merge(
                         3: $spacer,
                         4: ($spacer * 1.5),
                         5: ($spacer * 3),
-                        20: 20px,
+                        6: ($spacer * 4),
+                        15: 15px,
+                        18: 18px,
                         30: 30px,
+                        45: 45px,
                         60: 60px,
                         75: 75px,
-                        80: 80px,
-                        90: 90px,
-                        6: ($spacer * 4),
+                        100: 100px,
+                        110: 110px,
                         120: 120px
                 ),
                 $spacers
@@ -78,3 +100,10 @@ $card-spacer-x-sm: 0.6rem;
 // links
 $link-hover-color: $cyan;
 $link-hover-decoration: none;
+
+
+//Container
+
+$container-max-widths: (
+  xl: 1200px
+) !default;

@@ -1,0 +1,41 @@
+.nav-tabs {
+	border: none;
+	background-color: $white;
+	.nav-item {
+	    flex-grow: 1;
+		text-align: center;
+		.nav-link {
+			color: $cyan;
+			border: 1px solid #ccc;
+			border-bottom: 3px solid transparent;
+			border-radius: 0;
+			border-right: none;
+			&.active,
+			&:hover {
+				border: 1solid #ccc;
+				border-bottom-color: $primary;
+				color: $dark;
+				background-color: $white;
+			}
+		}
+		&:last-of-type {
+			.nav-link {
+				border-right: 1px solid #ccc;
+			}
+		}
+	}
+}
+
+.tab-content {
+	border: 1px solid #ccc;
+	background-color: $white;
+	.float-left {
+		margin-top: $font-size-lg;
+		padding-left: 30px;
+		@media (min-width: 768px) {
+			& + .float-left {
+			margin-left: 20px;
+			}
+		}
+	}
+}

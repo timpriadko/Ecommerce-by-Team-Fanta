@@ -8,26 +8,28 @@
     }
     .card-footer{
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
         background-color: transparent;
         padding: $spacer $card-spacer-x;
-
-        .card-author{
-            display: flex;
-            align-items: center;
-        }
-
-        .card-author-img{
-            display: inline-block;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            background-color: $gray-800;
-            margin-right: 10px;
-        }
     }
-
+    .card-author{
+        display: flex;
+        align-items: center;
+    }
+    .card-author-img{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: $gray-800;
+        margin-right: 10px;
+    }
+    .card-img-left {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
     .card-author-name{
         color: $cyan;
 
@@ -35,7 +37,6 @@
             color: $primary;
         }
     }
-
     .card-rating-icon{
         color: $orange;
         transition: 0.2s;
@@ -47,9 +48,9 @@
             }
         }
     }
-
     .card-rating{
         font-size: $font-size-sm;
+        flex-wrap: wrap;
     }
 
     .card-rating-number{
@@ -58,7 +59,78 @@
     .card-rating-value{
         color: $dark;
     }
+}
 
+.internal-page{
+    img{
+        width: 100%;
+    }
+    .card-img-top{
+        width: 240px;
+    }       
+    .card__child{
+        flex-grow: 1;
+        .card-title {
+            font-size: 1rem;
+        }
+        .card-body {
+            .card-price {
+                font-size: $h2-font-size;
+                font-weight: $font-weight-bold;
+                color: $dark;
+            }
+        }
+    }
+    .card-body-inner{
+        color: $dark-blue;
+    }
+    .sales{
+        color: #aeb4bb;
+        font-size: 13px;
+    }
+    .card-rating{
+        line-height: $font-size-base;
+    }
+    .card-feedback-icon{
+        padding-left: 17px;
+        .fa-comment-o,
+        .fa-heart-o{
+            font-size: $font-size-base;
+            color: $primary;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .fa-comment-o:hover:before{
+            content: '\f075';
+        }
+        .fa-heart-o:hover:before{
+            content: '\f004';
+        }
+    }
+}
 
-
+// Mini card
+.mini-card {
+    margin-top: 30px;
+    .card-img-left {
+        background-color: $gray-400;
+        width: 90px;
+        height: 100%;
+    }
+    .card-body {
+        background-color: $white;
+        padding: 20px 20px 10px 20px;
+        .card-title {
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+        .card-category {
+            font-size: 12px;
+        }
+        .card-price {
+            color: $dark;
+            font-size: 18px;
+            font-weight: $font-weight-bold;
+        }
+    }
 }

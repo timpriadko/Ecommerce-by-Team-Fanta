@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <title>Title</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content= width=device-width height=device-height user-scalable=no>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div class="header-inner">
+            <div class="top-panel container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="account-information d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="info-inner">
+                                <div><sapn class="text-danger">Need help?</sapn> Talk to an expert: <a href="callto:+61 3 8376 6284">+61 3 8376 6284</a></div>
+                            </div>
+                            <div class="info-inner messages-block d-flex justify-content-between align-items-cente">
+                                <div class="dropdown">
+                                    <button class="btn btn-light" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,30">
+                                        <span class="fa fa-bell-o"></span>
+                                        <span class="badge badge-warning">4</span>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                        <a class="dropdown-item" href="#">
+                                            <div class="img-wrapper"><img src="" alt=""></div>
+                                            <div class="message">
+                                                <div class="message-title">
+                                                Need WP Help!
+                                                </div>
+                                                <date class="message-date">01 Dec, 2016</date>
+                                            </div>
+                                            <span class="message-notification fa fa-bell-o"></span>
+                                        </a>
+                                        <a class="dropdown-item" href="#">
+                                            <div class="img-wrapper"><img src="" alt=""></div>
+                                            <div class="message">
+                                                <div class="message-title">
+                                                Need WP Help!
+                                                </div>
+                                                <date class="message-date">26 Nov, 2016</date>
+                                            </div>
+                                            <span class="message-notification fa fa-bell-o"></span>
+                                        </a>
+                                        <a class="dropdown-item" href="#">
+                                            <div class="img-wrapper"><img src="" alt=""></div>
+                                            <div class="message">
+                                                <div class="message-title">
+                                                Psd Template Help!
+                                                </div>
+                                                <date class="message-date">26 Nov, 2016</date>
+                                            </div>
+                                            <span class="message-notification fa fa-bell-o"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-light" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,30">
+                                        <span class="fa fa-envelope-o"></span>
+                                        <span class="badge badge-info">4</span>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                        <a class="dropdown-item" href="#">
+                                            <div class="img-wrapper"><img src="" alt=""></div>
+                                            <div class="message">
+                                                <div class="message-sender-name"><span>Kazi Fahim</span></div>
+                                                <div class="message-title">
+                                                Need WP Help!
+                                                </div>
+                                                <date class="message-date">01 Dec, 2016</date>
+                                            </div>
+                                            <span class="message-notification fa fa-envelope-o"></span>
+                                        </a>
+                                        <a class="dropdown-item" href="#">
+                                            <div class="img-wrapper"><img src="" alt=""></div>
+                                            <div class="message">
+                                                <div class="message-sender-name"><span>Richi Lenal</span></div>
+                                                <div class="message-title">
+                                                Need WP Help!
+                                                </div>
+                                                <date class="message-date">01 Dec, 2016</date>
+                                            </div>
+                                            <span class="message-notification fa fa-envelope-o"></span>
+                                        </a>
+                                        <a class="dropdown-item" href="#">
+                                            <div class="img-wrapper"><img src="" alt=""></div>
+                                            <div class="message">
+                                                <div class="message-sender-name"><span>PsdBosS</span></div>
+                                                <div class="message-title">
+                                                Need WP Help!
+                                                </div>
+                                                <date class="message-date">01 Dec, 2016</date>
+                                            </div>
+                                            <span class="message-notification fa fa-reply"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-light" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,30">
+                                        <span class="fa fa-shopping-cart"></span>
+                                        <span class="badge badge-primary">4</span>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                        <a class="dropdown-item" href="#">
+                                            <div class="img-wrapper-cart"><img src="" alt=""></div>
+                                            <div class="message">
+                                                <div class="message-product-name"><span>Grand Ballet</span></div>
+                                                <div class="message-product-title"><span>WordPress</span></div>
+                                                <div class="message-product-cost">$59</div>
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item" href="#">
+                                            <div class="img-wrapper-cart"><img src="" alt=""></div>
+                                            <div class="message">
+                                                <div class="message-product-name"><span>Apple Device</span></div>
+                                                <div class="message-product-title"><span>WordPress</span></div>
+                                                <div class="message-product-cost">$59</div>
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item" href="#">
+                                            <div class="cart-footer">
+                                                <div class="total">
+                                                    <div>Total</div>
+                                                    <div>$118</div>
+                                                </div>
+                                                <div class="cart-buttons-wrapper">
+                                                    <div href="#" class="btn-primary">Go to Cart</div>
+                                                    <div href="#" class="btn-secondary">Go to Checkout</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="info-inner user d-flex align-items-center">
+                                <div class="user-logo"></div>
+                                <div class="user-data">
+                                    <div class="dropdown">
+                                            <button class="user-name-toggle btn btn-white"  id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,45">
+                                                <span>Mike Hussy</span>
+                                                <span class="fa fa-angle-down pl-2"></span>
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                                <a class="dropdown-item green-arrow" href="#">Profile Page</a>
+                                                <a class="dropdown-item green-arrow" href="#">Portfolio</a>
+                                                <a class="dropdown-item green-arrow" href="#">Account Setting</a>
+                                                <a class="dropdown-item green-arrow" href="#">Downloads</a>
+                                                <a class="dropdown-item green-arrow" href="#">Wishlist</a>
+                                                <a class="dropdown-item green-arrow" href="#">Upload Item</a>
+                                                <a class="dropdown-item green-arrow" href="#">Statement</a>
+                                                <a class="dropdown-item green-arrow" href="#">Withdraws</a>
+                                            </div>
+                                    </div>
+                                    <div class="value text-primary">$171.00</div>
+                                </div>
+                            </div>
+                            <div class="info-inner out-btn">
+                                <a href="#" class="btn btn-xs btn-secondary">Logout</a>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+            <div class="navigation navbar-dark bg-dark">
+                <nav class="navbar navbar-expand-md container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">WordPress</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Joomla</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">PSD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Plugins</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Components</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Help</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>            
+            </div>
+        </header>
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><a href="#">Product Page</a></li>
+                </ol>
+            </nav>
+        </div>
+
+        <!-- Main content -->
+        <main>
+            <div class="container">
+                <section class="pb-120">
+                <div class="row">
+                        
+                        <!-- Main part -->
+                    <div class="col-lg-9">
+                        <div class="bg-white p-18 border">
+                            <div class="bg-gray-400 min-height-420 overflow-hidden"><img src="img/template-1.jpg" alt="product"></div>
+                        </div>
+                        <h2 class="py-30">GTBuilder - Construction & Building WordPress Theme</h2>
+                        <p>Bmply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived noning essentially unchanged.</p>
+                        <div class="d-flex justify-content-between py-45">
+                            <div class="btn-group btn-group-lg btn-group-offset-lg" role="group">
+                                <button type="button" class="btn btn-secondary rounded-0">Live Preview</button>
+                                <button type="button" class="btn btn-cyan rounded-0">Screenshots</button>
+                                <button type="button" class="btn btn-primary rounded-0">Documentation</button>
+                            </div>
+
+                            <ul class="btn-group btn-group-offset-xs inline-list" role="group">
+                                <li>
+                                    <a href="#" class="btn btn-social-lg btn-social-color facebook rounded-0">
+                                        <span class="fa fa-facebook icon"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn btn-social-lg btn-social-color twitter rounded-0">
+                                        <span class="fa fa-twitter icon"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn btn-social-lg btn-social-color linkedin rounded-0">
+                                        <span class="fa fa-linkedin icon"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn btn-social-lg btn-social-color pinterest rounded-0">
+                                        <span class="fa fa-pinterest-p icon"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                               
+                        </div>
+                                <!-- Navigation Tabs -->
+                        <div>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="features" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Item Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="comments" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Comments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="reviews" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Reviews</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="support" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Support</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content p-15 pb-45" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="features">
+                                <ul class="listing">
+                                    <div class="row">
+                                        <div class="float-left">
+                                            <li>Printing and typesetting industry</li>
+                                            <li>Bhen an unknown printe</li>
+                                            <li>Handard dummy text</li>
+                                            <li>Desktop publishing software</li>
+                                            <li>Bhen an unknown printe</li>
+                                        </div>
+                                        <div class="float-left">
+                                            <li>Printing and typesetting industry</li>
+                                            <li>Bhen an unknown printe</li>
+                                            <li>Handard dummy text</li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="comments">2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="reviews">3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="support">4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                        </div>
+                        </div>
+                            <!-- Mini Tabs -->
+                        <div>
+                            <h5 class="mt-60 py-18 pl-30 bg-white">More Product by PsdBosS</h5>
+                            <div class="mini-cards d-flex flex-wrap justify-content-between">
+                                <div class="row">
+                                    <div class="mini-card flex-sm-row d-flex align-items-center col-sm-4">
+                                        <div class="card-img-left">
+                                            <!-- <img src="img/template-1.jpg" alt="template"> -->
+                                        </div>                                      
+                                        <div class="card__child">
+                                            <div class="card-body">
+                                                <div class="card-body-inner">
+                                                    <h5 class="card-title">Grand Ballet - Dance</h5>
+                                                    <a class="card-category small" href="#">PSD Template</a>
+                                                    <div class="card-price">$12</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mini-card flex-sm-row d-flex align-items-center col-sm-4">
+                                        <div class="card-img-left">
+                                            <!-- <img src="img/template-1.jpg" alt="template"> -->
+                                        </div>                                      
+                                        <div class="card__child">
+                                            <div class="card-body">
+                                                <div class="card-body-inner">
+                                                    <h5 class="card-title">Grand Ballet - Dance</h5>
+                                                    <a class="card-category small" href="#">PSD Template</a>
+                                                    <div class="card-price">$59</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mini-card flex-sm-row d-flex align-items-center col-sm-4">
+                                        <div class="card-img-left">
+                                            <!-- <img src="img/template-1.jpg" alt="template"> -->
+                                        </div>                                      
+                                        <div class="card__child">
+                                            <div class="card-body">
+                                                <div class="card-body-inner">
+                                                    <h5 class="card-title">Grand Ballet - Dance</h5>
+                                                    <a class="card-category small" href="#">PSD Template</a>
+                                                    <div class="card-price">$48</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="mini-card flex-sm-row d-flex align-items-center col-sm-4">
+                                        <div class="card-img-left">
+                                            <!-- <img src="img/template-1.jpg" alt="template"> -->
+                                        </div>                                      
+                                        <div class="card__child">
+                                            <div class="card-body">
+                                                <div class="card-body-inner">
+                                                    <h5 class="card-title">Grand Ballet - Dance</h5>
+                                                    <a class="card-category small" href="#">Component</a>
+                                                    <div class="card-price">$18</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mini-card flex-sm-row d-flex align-items-center col-sm-4">
+                                        <div class="card-img-left">
+                                            <!-- <img src="img/template-1.jpg" alt="template"> -->
+                                        </div>                                      
+                                        <div class="card__child">
+                                            <div class="card-body">
+                                                <div class="card-body-inner">
+                                                    <h5 class="card-title">Grand Ballet - Dance</h5>
+                                                    <a class="card-category small" href="#">PSD Template</a>
+                                                    <div class="card-price">$29</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mini-card flex-sm-row d-flex align-items-center col-sm-4">
+                                        <div class="card-img-left">
+                                            <!-- <img src="img/template-1.jpg" alt="template"> -->
+                                        </div>                                      
+                                        <div class="card__child">
+                                            <div class="card-body">
+                                                <div class="card-body-inner">
+                                                    <h5 class="card-title">Grand Ballet - Dance</h5>
+                                                    <a class="card-category small" href="#">Hoomla</a>
+                                                    <div class="card-price">$18</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- Sidebar -->
+                    <div class="col-lg-3">
+                        <div class="product-price p-30 bg-white">
+                            <h4>Product Price</h4>
+                            <div class="d-flex justify-content-between mb-30">
+                                <p class="product-price-price">$59.00</p>
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle bg-white rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Regular
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary btn-lg rounded-0 btn-block">
+                                <span class="fa fa-shopping-cart pr-1"></span>
+                                Add To Cart</a>
+                            <a href="#" class="btn btn-primary btn-lg rounded-0 btn-block bg-light-blue">
+                                <span class="fa fa-heart-o pr-1"></span>
+                                Add To Favourites</a>
+                            <a href="#" class="btn btn-primary btn-lg rounded-0 btn-block bg-cyan">Buy Now</a>
+                        </div>
+                        <div class="p-30 mt-30 bg-white">
+                            <h4>Product Author</h4>
+                            <div class="product-autor-data d-flex pb-30">
+                                <div class="product-autor-img"></div>
+                                <div class="pl-15">
+                                    <p class="product-autor-title">PsdBoss</p>
+                                    <a href="#" class="btn btn-light bg-white rounded-0 mt-1">View Profile</a>
+                                </div>
+                            </div>
+                            <div class="shield-icons d-flex justify-content-between">
+                                <div class="shield">
+                                    <span class="shield-top"></span>
+                                    <span class="shield-bottom"></span>
+                                    <span class="fa fa-meh-o"></span>
+                                </div>
+                                <div class="shield">
+                                    <span class="shield-top bg-secondary"></span>
+                                    <span class="shield-bottom bg-secondary"></span>
+                                    <span class="fa fa-pagelines"></span>
+                                </div>
+                                <div class="shield">
+                                    <span class="shield-top bolt"></span>
+                                    <span class="shield-bottom bolt"></span>
+                                    <span class="fa fa-bolt"></span>
+                                </div>
+                                <div class="shield">
+                                    <span class="shield-top foursquare"></span>
+                                    <span class="shield-bottom foursquare"></span>
+                                    <span class="fa fa-foursquare"></span>
+                                </div>
+                                <div class="shield">
+                                    <span class="shield-top yen"></span>
+                                    <span class="shield-bottom yen"></span>
+                                    <span class="fa fa-jpy"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-15 my-30 bg-white">
+                            <p><span class="fa fa-shopping-cart pl-3 fs20-gray300"></span><span class="h4 px-3">05</span>Sales</p>
+                        </div>
+                        <div class="p-30 bg-white">
+                            <h4>Product Information</h4>
+                            <dl>
+                                <dt>Released On:</dt>
+                                    <dd>1 January, 2016</dd>
+                                    <br>
+                                <dt>Last Update:</dt>
+                                    <dd>20 April, 2016</dd>
+                                    <br>
+                                <dt>Download:</dt>
+                                    <dd>613</dd>
+                                    <br>
+                                <dt>Version:</dt>
+                                    <dd>1.1</dd>
+                                    <br>
+                                <dt>Compatibility:</dt>
+                                    <dd>Wordpress 4+</dd>
+                                    <br>
+                                <dt>Compatible Browsers:</dt>
+                                    <dd>E9, IE10, IE11, Firefox, Safari, Opera, Chrome</dd>
+                            </dl>
+                        </div>
+                    </div>           
+                </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <!-- isotope -->
+    <script src="js/isotope.pkgd.js"></script>
+        <!-- site scripts -->
+    <script src="js/scripts.js"></script>
+        <!-- popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <!-- bootstrap.js -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

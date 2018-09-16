@@ -1,0 +1,122 @@
+footer {
+	h5 {
+		color: $white;
+	}
+	p {
+		color: $dark-blue-3;
+	}
+	.green-line {
+		width: 50px;
+		border-bottom: 3px solid $primary;
+	}
+	.footer-main {
+		font-size: $font-size-lg;
+		.footer-adress {
+			font-size: $h5-font-size;
+			.fa-map-marker {
+				padding-right: 20px;
+				color: $primary;
+			}
+			p {
+				font-size: $small-font-size;
+				color: $white;
+			}
+		}
+		.footer-phone {
+			.fa-phone {
+				padding-right: 20px;
+				color: $primary;
+			}
+			a {
+				color: $white;
+			}
+		}
+		.footer-soc-icons {
+			div {
+				height: 30px;
+				width: 30px;
+				color: $white;
+				position: relative;
+				border-radius: 2px;
+			}
+			.facebook {
+				background-color: $facebook;
+				.fa-facebook {
+					position: absolute;
+					font-size: 23px;
+				    top: 7px;
+				    left: 13px;
+				}
+			}
+			.twitter {
+				background-color: $twitter;
+				.fa-twitter {
+					position: absolute;
+					font-size: 22px;
+				    top: 4px;
+				    left: 6px;
+				}
+			}
+			.youtube {
+				background-color: $red-2;
+				.fa-youtube-play {
+					position: absolute;
+					font-size: 20px;
+				    top: 5px;
+				    left: 5px;
+				}
+			}
+			.pinterest {
+				background-color: $white;
+				.fa-pinterest {
+					position: absolute;
+					color: $pinterest;
+					font-size: 21px;
+				    top: 5px;
+				    left: 6px;
+				}
+			}
+			.linkedin {
+				background-color: $linkedin;
+				.fa-linkedin {
+					position: absolute;
+					font-size: 18px;
+				    top: 5px;
+				    left: 8px;
+				}
+			}
+		}
+		.subscribe {
+			p {
+				font-size: $h4-font-size;
+				color: $white;
+			}
+			form {
+				position: relative;
+				white-space: nowrap;
+				input {
+					background-color: $dark-2;
+					padding: 5px;
+					margin: 0;
+					border: none;
+					color: $white;
+				}
+				::-webkit-input-placeholder {
+					line-height: 40px;
+					color: $dark-blue-4;
+				}
+				.btn-primary {
+					position: absolute;
+					cursor: pointer;
+					border: none;
+					height: 32px;
+					width: 32px;
+				}
+			}
+		}
+	}
+	.footer-bottom {
+		color: $gray-900;
+		border-top: 1px solid $gray-900;
+	}
+}

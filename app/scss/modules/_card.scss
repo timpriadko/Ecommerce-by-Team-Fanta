@@ -29,6 +29,12 @@
     .card-img-left {
         margin-right: -15px;
         margin-left: -15px;
+        padding-right: 0;
+        padding-left: 0;
+        @media (min-width: 768px) {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
     }
     .card-author-name{
         color: $cyan;
@@ -61,6 +67,7 @@
     }
 }
 
+// Products listing List view
 .internal-page{
     img{
         width: 100%;
@@ -70,6 +77,7 @@
     }       
     .card__child{
         flex-grow: 1;
+        width: 100%;
         .card-title {
             font-size: 1rem;
         }
@@ -110,27 +118,33 @@
 }
 
 // Mini card
-.mini-card {
-    margin-top: 30px;
-    .card-img-left {
-        background-color: $gray-400;
-        width: 90px;
-        height: 100%;
+.mini-cards {
+    .col-md-4 {
+        padding-left: 0;
+        padding-right: 0;
     }
-    .card-body {
-        background-color: $white;
-        padding: 20px 20px 10px 20px;
-        .card-title {
-            font-size: 14px;
-            margin-bottom: 0;
+    .mini-card {
+        margin-top: 30px;
+        .card-img-left {
+            background-color: $gray-400;
+            width: 90px;
+            height: 100%;
         }
-        .card-category {
-            font-size: 12px;
-        }
-        .card-price {
-            color: $dark;
-            font-size: 18px;
-            font-weight: $font-weight-bold;
+        .card-body {
+            background-color: $white;
+            padding: 20px 20px 10px 20px;
+            .card-title {
+                font-size: 14px;
+                margin-bottom: 0;
+            }
+            .card-category {
+                font-size: 12px;
+            }
+            .card-price {
+                color: $dark;
+                font-size: 18px;
+                font-weight: $font-weight-bold;
+            }
         }
     }
 }

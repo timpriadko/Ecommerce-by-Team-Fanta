@@ -93,6 +93,9 @@ h4 {
 			color: $primary;
 		}
 	}
+	.btn-primary {
+		border-color: none;
+	}
 	.bg-light-blue {
 		background-color: $light-blue;
 		&:hover {
